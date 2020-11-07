@@ -1,22 +1,26 @@
 PODS:
   - Bolts/Tasks (1.9.1)
+  - IQKeyboardManager (6.5.6)
   - Parse (1.19.0):
     - Parse/Core (= 1.19.0)
   - Parse/Core (1.19.0):
     - Bolts/Tasks (= 1.9.1)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - Parse
 
 SPEC REPOS:
   trunk:
     - Bolts
+    - IQKeyboardManager
     - Parse
 
 SPEC CHECKSUMS:
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Parse: 0fb5c7cc7ee5900f2434e24607d0496155b8d04f
 
-PODFILE CHECKSUM: 6e1c28882cd51920c1dcc444f95ea7a498886081
+PODFILE CHECKSUM: 96b403df95413ec04048bf62587091ccbe51eff6
 
 COCOAPODS: 1.9.3
