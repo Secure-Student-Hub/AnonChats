@@ -7,6 +7,7 @@
 
 import UIKit
 import Parse
+import IQKeyboardManager
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,7 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
               $0.clientKey = "2876O6soOq3y5shPNKC9Y5iDuNyjWUzqqq7D1Nqu"
               $0.server = "https://parseapi.back4app.com"
           }
-          Parse.initialize(with: parseConfig)
+        Parse.initialize(with: parseConfig)
+        
+        IQKeyboardManager.shared().isEnabled = true
         
         return true
     }
